@@ -61,7 +61,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
-		/*line-height: 1.75em;*/
+		line-height: 1.5em;
 		margin-bottom: 1em;
 		/*text-transform: uppercase;*/
 	}
@@ -96,7 +96,7 @@
 
 	#banner header h2 {
 		font-family: ClearLine;
-		font-size: 1.5em;
+		/*font-size: 1.5em;*/
 		letter-spacing: 0.1em;
 	}
 
@@ -360,12 +360,12 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
+			.icon.circle.fa-youtube{
 				background: #db6b67;
 				color: white;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.fa-youtube:hover {
 					background: #df7b77;
 				}
 
@@ -378,12 +378,12 @@
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-youtube{
+			.icon.circle.fa-flickr{
 				background: #da83ae;
 				color: white;
 			}
 
-				.icon.circle.fa-youtube:hover {
+				.icon.circle.fa-flickr:hover {
 					background: #df93b8;
 				}
 
@@ -592,9 +592,13 @@
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
-		padding: 5em;
+		margin-bottom: 2em;
+		padding: 3em;
 	}
+
+		.wrapper.style4 {
+			padding: 3em;
+		}
 
 		.wrapper.style1 {
 			padding: 0;
@@ -982,7 +986,7 @@
 				}
 
 /* Layer */
-
+/*
 	#topButton .toggle {
 		height: 100%;
 		left: 0;
@@ -1134,4 +1138,4 @@
 		#sidePanel .indent-5 {
 			display: inline-block;
 			width: 5em;
-		}
+		}*/
