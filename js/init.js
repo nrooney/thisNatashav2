@@ -77,6 +77,7 @@
 			$window.on('load', function() {
 				// alert("done loading");
 				$body.removeClass('is-loading');
+				$body.css("display","block")
 			});
 
 		// CSS polyfills (IE<9).

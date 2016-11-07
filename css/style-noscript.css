@@ -5,6 +5,9 @@
 */
 
 /* Banner */
+	body {
+		display: block !important;
+	}
 
 	#banner .inner {
 		opacity: 1.0;
